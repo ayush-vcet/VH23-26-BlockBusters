@@ -1,0 +1,30 @@
+.verbtn {
+  width: 150px;
+  font-size: 1.5rem;
+  padding-left: 40px;
+}
+
+
+.animated_img {
+  animation: home_img 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes home_img {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes home_img {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
