@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -100;
+  background-color: #f3f3fe;
+  background-color: rgb(17, 24, 39);
+  min-width: 100%;
+  overflow: auto;
+  /* min-height: 100vh; */
+}
+
+.cert-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cert {
+  width: 800px;
+  height: 600px;
+  padding: 15px 20px;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+
+.cert-bg {
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  z-index: -1;
+  width: 100%;
+  background-color: white;
+}
+
+.cert-content {
+  width: 750px;
+  height: 470px;
+  padding: 70px 60px 0px 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+  font-size: 44px;
+}
+
+.p {
+  font-size: 25px;
+}
+
+.other-font {
+  font-size: 30pt;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Georgia, "Noto Serif SC", Scheherazade, "Noto Serif KR";
+  color: rgb(6, 11, 51);
+  outline: 0px;
+  margin-top: 40px;
+  margin-bottom: -5px;
+}
+
+@font-face {
+  font-family: abril;
+  src: url(./AbrilFatface-Regular.ttf);
+}
+
+.abril {
+  font-family: Abril-Fatface;
+}
