@@ -194,11 +194,11 @@ function Home1({ state }) {
           setParticipate(eventArray[index]);
           setAddress(ownerArray[index]);
           setCode(id);
-          setData(`https://certifyblockchain.netlify.app/verify/${id}`);
+          setData(`https://certifiedtrustnet.netlify.app/verify/${id}`);
           setCodeArray((prevCodes) => [...prevCodes, id]);
           setDataArray((prevData) => [
             ...prevData,
-            `https://certifyblockchain.netlify.app/verify/${id}`,
+            `https://certifiedtrustnet.netlify.app/verify/${id}`,
           ]);
           imageUrl = await generateCertificate(nameArray[index]);
           uploadedImageUrls.push(imageUrl);
@@ -208,11 +208,11 @@ function Home1({ state }) {
           setParticipate(eventArray[index - 1]);
           setAddress(ownerArray[index - 1]);
           setCode(id);
-          setData(`https://certifyblockchain.netlify.app/verify/${id}`);
+          setData(`https://certifiedtrustnet.netlify.app/verify/${id}`);
           setCodeArray((prevCodes) => [...prevCodes, id]);
           setDataArray((prevData) => [
             ...prevData,
-            `https://certifyblockchain.netlify.app/verify/${id}`,
+            `https://certifiedtrustnet.netlify.app/verify/${id}`,
           ]);
           imageUrl = await generateCertificate(nameArray[index - 2]);
           uploadedImageUrls.push(imageUrl);
@@ -279,7 +279,7 @@ function Home1({ state }) {
                 class="font-semibold text-3xl text-gray-700 m-2"
                 style={{ color: "white" }}
               >
-                Log In
+                Certificate Generation
               </h1>
             </div>
             <div class="flex flex-col justify-center items-center mt-10 md:mt-4 space-y-6 md:space-y-8">

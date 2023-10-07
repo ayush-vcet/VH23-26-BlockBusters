@@ -55,7 +55,7 @@ function Collection({ state }) {
                 <a href="#">
                   <img
                     class="rounded-t-lg"
-                    src={`https://ipfs.io/ipfs/${detail[6]}`}
+                    src={`https://ipfs.io/ipfs/${detail[7]}`}
                     alt=""
                   />
                 </a>
@@ -96,7 +96,7 @@ function Collection({ state }) {
                   </button>
 
                   <a
-                    href={`https://certifyblockchain.netlify.app/view/${detail[6]}`}
+                    href={`https://certifiedtrustnet.netlify.app/view/${detail[7]}`}
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     View

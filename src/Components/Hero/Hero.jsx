@@ -7,7 +7,7 @@ function Hero() {
     return (
         <>
     <div class="hero">
-      <section class="hero-left" style={{ marginLeft: "60px" }}>
+      <section class="hero-left" style={{ marginLeft: "20px" }}>
         <h1>Empowering Trust: Blockchain-Based Certificate Generation & Verification</h1>
         <p>
         Revolutionizing Credentials: Immutable, Transparent, and Tamper-Proof Certificates for the Digital Age.

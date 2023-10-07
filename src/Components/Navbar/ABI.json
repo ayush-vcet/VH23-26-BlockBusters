@@ -60,6 +60,11 @@
 	},
 	{
 		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
 		"name": "appContract",
 		"outputs": [
 			{
@@ -102,11 +107,6 @@
 				"type": "string"
 			},
 			{
-				"internalType": "uint256",
-				"name": "time",
-				"type": "uint256"
-			},
-			{
 				"internalType": "address",
 				"name": "owner",
 				"type": "address"
@@ -115,6 +115,11 @@
 				"internalType": "bool",
 				"name": "status",
 				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "time",
+				"type": "uint256"
 			},
 			{
 				"internalType": "string",
@@ -219,11 +224,6 @@
 						"type": "string"
 					},
 					{
-						"internalType": "uint256",
-						"name": "time",
-						"type": "uint256"
-					},
-					{
 						"internalType": "address",
 						"name": "owner",
 						"type": "address"
@@ -232,6 +232,11 @@
 						"internalType": "bool",
 						"name": "status",
 						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -274,11 +279,6 @@
 						"type": "string"
 					},
 					{
-						"internalType": "uint256",
-						"name": "time",
-						"type": "uint256"
-					},
-					{
 						"internalType": "address",
 						"name": "owner",
 						"type": "address"
@@ -287,6 +287,11 @@
 						"internalType": "bool",
 						"name": "status",
 						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -329,11 +334,6 @@
 						"type": "string"
 					},
 					{
-						"internalType": "uint256",
-						"name": "time",
-						"type": "uint256"
-					},
-					{
 						"internalType": "address",
 						"name": "owner",
 						"type": "address"
@@ -344,6 +344,11 @@
 						"type": "bool"
 					},
 					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
 						"internalType": "string",
 						"name": "img",
 						"type": "string"
@@ -352,6 +357,19 @@
 				"internalType": "struct App.Student[]",
 				"name": "",
 				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner_address",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
 			}
 		],
 		"stateMutability": "view",

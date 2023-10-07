@@ -31,6 +31,7 @@ function Verify({state}) {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh', 
+        backgroundColor: '#111827'
       };
       
       const imageStyle = {

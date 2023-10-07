@@ -39,29 +39,32 @@ nav ul li a:hover{
 }
 .hero {
   display: flex;
-  align-items: center;
-  min-height: 90vh;
-  background-color: #111827;
+    align-items: center;
+    justify-content: center;
+    background-color: #111827;
+    min-height: 90vh;
 }
 
 .hero section {
   flex: 1;
 }
 .hero-left h1 {
-  line-height: 1;
   font-size: 2.5rem;
   margin-bottom: 25px;
   color: #ffffff;
+  line-height: 1;
 }
 
 .hero-left p {
   font-weight: 600;
+  line-height: 1.5;
   margin-bottom: 25px;
   color: #ffffff;
 }
 
 .hero-left {
   padding-right: 40px;
+  margin-bottom: 30px;
 }
 .hero-left a {
   padding: 10px 15px;
@@ -79,8 +82,10 @@ nav ul li a:hover{
   background-color: #070439;
 }
 .right {
-  margin-right: -150px;
   padding-top: 50px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .right img {
@@ -100,20 +105,10 @@ nav ul li a:hover{
   .hero {
     flex-direction: column;  
     text-align: center; 
-    height: 110vh;
   }
 
   .hero .right {
-    order: -1;   
+    order: -1;  
+    padding-bottom: 5rem; 
   }
-  .right img {
-    width: 60%;
-}
-.hero-left h1 {
-  font-size: 1.7rem;
-}
-
-.hero-left p {
-  font-size: 0.8rem;
-}
 }
